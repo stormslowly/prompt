@@ -1,0 +1,22 @@
+{
+  "name": "address_prompt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "stormslowly@gmail.com <stormslowly@gmail.com>",
+  "scripts": {
+    "setup": "ts-node src/setup.ts",
+    "query": "ts-node src/query.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/node": "^10.3.2",
+    "@types/redis": "^2.8.6",
+    "ts-node": "^6.1.0",
+    "typescript": "^2.9.1"
+  }
+}
